@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Logo from '../components/logo'
+import Logo from 'components/logo'
+import 'styles/index.sass'
 
 export default () => (
   <div className="root">
@@ -10,19 +11,6 @@ export default () => (
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <title>Next.js on Heroku</title>
     </Head>
-    <style jsx>{`
-      .root {
-        font-family: sans-serif;
-        line-height: 1.33rem;
-        margin-top: 8vh,
-      }
-      @media (min-width: 600px) {
-        .root {
-          margin-left: 21vw;
-          margin-right: 21vw;
-        }
-      }
-    `}</style>
 
     <h1><Logo style={{ height: '1.45rem' }}/> Next.js on LIVE Heroku</h1>
 
