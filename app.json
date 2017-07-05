@@ -1,6 +1,12 @@
 {
-  "name": "Next.js",
-  "description": "Universal web app built on React.js, server-rendered with Node.js",
+  "name": "next",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV" : "production"
+  },
+
   "buildpacks": [
     {
       "url": "heroku/nodejs"
