@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Logo from 'components/logo'
-import 'styles/index.sass'
+import stylesheet from 'styles/index.sass'
 
 export default () => (
   <div className="root">
