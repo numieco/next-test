@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Logo from 'components/logo'
-import 'styles/index.sass'
+import stylesheet from 'styles/index.sass'
 
 export default () => (
   <div className="root">
@@ -10,6 +10,7 @@ export default () => (
       <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <title>Next.js on Heroku</title>
+      <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
 
     <h1><Logo style={{ height: '1.45rem' }}/> Next.js on LIVE Heroku</h1>
